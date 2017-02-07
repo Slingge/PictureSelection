@@ -12,6 +12,15 @@ import java.util.ArrayList;
 import me.iwf.photopicker.PhotoPickerActivity;
 import me.iwf.photopicker.utils.PhotoPickerIntent;
 
+/**
+ * 预览图片
+ * Intent intent = new Intent(mContext, PhotoPagerActivity.class);
+ * intent.putExtra(PhotoPagerActivity.EXTRA_CURRENT_ITEM, position);
+ * intent.putExtra(PhotoPagerActivity.EXTRA_PHOTOS, photoPaths);
+ * startActivityForResult(intent, REQUEST_CODE);
+ *
+ * Created by Slingge on 2017/2/7 0007.
+ */
 public class MainActivity extends AppCompatActivity {
 
     private TextView tv_path;
